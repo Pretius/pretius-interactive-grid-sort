@@ -40,25 +40,24 @@ Want to see the plugin in action? [Check out the demo application!](https://apex
    - **Placeholder class**: class of the placeholder (will be used as a placeholder for the dragged row)
  6. The plugin is ready to use. You can now sort your rows by drag & drop. If you want to use custom handler or buttons for sorting, please follow the additional steps below.
  7. Additional steps:
- 
- i. To enable sorting only by your handler, it is necessary to use the handler class in one of your columns. You can use the following code to create column:
-   - **Create new column**: Create new column (right click on your region columns and Create column). Set type to HTML Expression, use the following code:
-   ```html
-   <i class="fa fa-arrows-v sort-control" style="font-size: 12px;"></i>
-   ```
 
- ii. To enable sorting by buttons, you have to create a column with buttons and use the on click function to call the plugin action. You can use the following code to create column with buttons:
-   - **Create new column**: Create new column. Set type to HTML Expression, use the following code:
-   ```html
+    7.1. To enable sorting only by your handler, it is necessary to use the handler class in one of your columns. You can use the following code to create column:
+    - **Create new column**: Create new column (right click on your region columns and Create column). Set type to HTML Expression, use the following code:
+    ```html
+    <i class="fa fa-arrows-v sort-control" style="font-size: 12px;"></i>
+    ```
+    7.2. To enable sorting by buttons, you have to create a column with buttons and use the on click function to call the plugin action. You can use the following code to create column with buttons:
+    - **Create new column**: Create new column. Set type to HTML Expression, use the following code:
+    ```html
     <div class="div-sort-buttons sort-control">
-      <button type="button" onclick="pretiusInteractiveGridSort.moveRow(this,'up','ORDER_COL');">
-        <i class="fa fa-sort-asc" style="font-size: 12px;"></i>
-      </button>
-      <button type="button" onclick="pretiusInteractiveGridSort.moveRow(this,'down','ORDER_COL');">
-        <i class="fa fa-sort-desc" style="font-size: 12px;"></i>
-      </button>
+     <button type="button" onclick="pretiusInteractiveGridSort.moveRow(this,'up','ORDER_COL');">
+      <i class="fa fa-sort-asc" style="font-size: 12px;"></i>
+     </button>
+     <button type="button" onclick="pretiusInteractiveGridSort.moveRow(this,'down','ORDER_COL');">
+      <i class="fa fa-sort-desc" style="font-size: 12px;"></i>
+     </button>
     </div>
-   ```
+    ```
  8. Please be aware that plugin will work only if the Interactive Grid is editable and the order column is present in the Interactive Grid. Also the Affected Element must be set to the Interactive Grid region.
 
 ## Drag & drop 
