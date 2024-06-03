@@ -1,0 +1,45 @@
+{
+    "name" : "Pretius Interactive Grid Sort",
+    "version" : "1.0",
+    "description" : "Plugin enables you to sort/reorder your Interactive Grid rows by drag and drop or buttons. It is a simple and easy way to change the order of your rows in the Interactive Grid.",
+    "keywords" : ["sort", "reorder", "order", "interactive grid", "ig", "drag", "drop", "grid"],
+    "homepage" : "https://github.com/Pretius/pretius-interactive-grid-sort",
+    "bugs" : {
+      "url" : "https://github.com/Pretius/pretius-interactive-grid-sort/issues",
+      "email" : "apex-plugins@pretius.com"
+    },
+    "license" : "MIT",
+    "commercial" : "No",
+    "commercially_supported":"Yes",
+    "author" : {
+      "name" : "Pretius",
+      "email" : "apex-plugins@pretius.com",
+      "url" : "http://www.pretius.com",
+      "twitter": "PretiusSoftware"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/Pretius/pretius-interactive-grid-sort"
+    },
+    "oracle": { 
+      "versions": [
+        "11.2.0.1",
+        "12.1.0.1",
+        "12.2.0.1",
+        "18.0.0.0",
+        "19.0.0.0",
+        "23.0.0.0"
+      ],
+      "apex": { 
+        "versions": [
+          "23"
+        ],
+        "plugin" : {
+          "internalName" : "PRETIUS_INTERACTIVE_GRID_SORT",
+          "type" : "dynamic action",
+          "demo" : "https://apex.oracle.com/pls/apex/r/pretius/pretius-interactive-grid-sort",
+          "previewImage": "https://raw.githubusercontent.com/pretius/pretius-interactive-grid-sort/master/readme_files/sort1.gif"
+        }
+      }
+    }
+  }

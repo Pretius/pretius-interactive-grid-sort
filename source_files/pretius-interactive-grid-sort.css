@@ -1,0 +1,28 @@
+.ui-state-highlight {
+    margin: 1px;
+    height: 34px;
+    width: 100%;
+    -webkit-box-shadow: inset 0px 0px 1px 3px var(--a-field-input-focus-border-color);
+    -moz-box-shadow: inset 0px 0px 1px 3px var(--a-field-input-focus-border-color);
+    box-shadow: inset 0px 0px 1px 3px var(--a-field-input-focus-border-color);
+}
+
+.sortable-helper {
+    opacity: 0.7;
+    width: 50%;
+    height: 50%;
+}
+
+.div-sort-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-sort-buttons>button {
+    height: 20px;
+}
+
+.sort-control {
+    width: 100%;
+    text-align: center;
+}
