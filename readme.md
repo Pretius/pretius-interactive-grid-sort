@@ -40,6 +40,7 @@ Want to see the plugin in action? [Check out the demo application!](https://apex
    - **Placeholder class**: class of the placeholder (will be used as a placeholder for the dragged row)
  6. The plugin is ready to use. You can now sort your rows by drag & drop. If you want to use custom handler or buttons for sorting, please follow the additional steps below.
  7. Additional steps
+ 
  7.1. To enable sorting only by your handler, it is necessary to use the handler class in one of your columns. You can use the following code to create column:
    - **Create new column**: Create new column (right click on your region columns and Create column). Set type to HTML Expression, use the following code:
    ```html
