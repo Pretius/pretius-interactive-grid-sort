@@ -18,7 +18,7 @@
 Pretius Interactive Grid Sort is an Oracle APEX dynamic action plugin developed by Tomas Kucharzyk at <a href="https://www.pretius.com" title="https://www.pretius.com">Pretius</a>. Plugin enables you to sort/reorder your Interactive Grid rows by drag and drop or buttons. It is a simple and easy way to change the order of your rows in the Interactive Grid.
 
 <div  style="float: left"><p  align="center">
-<img  src="readme_files/combined-gif.gif"  width="800"  />
+<img  src="readme_files/combinedgif.gif"  width="800"  />
 </p></div>
 
 ## Demo Application
