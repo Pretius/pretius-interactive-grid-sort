@@ -61,7 +61,7 @@ Want to see the plugin in action? [Check out the demo application!](https://apex
  8. Please be aware that plugin will work only if the Interactive Grid is editable and the order column is present in the Interactive Grid. Also the Affected Element must be set to the Interactive Grid region.
 
 ## Drag & drop 
-If you want to use drag & drop without custom handler, you dont have to creaty any additional columns, the sorting will work right out of box.
+If you want to use drag & drop without custom handler, you dont have to create any additional columns, the sorting will work right out of box.
 
 <div  style="float: left"><p  align="center">
 <img  src="readme_files/sort3.gif"  width="800"  />
