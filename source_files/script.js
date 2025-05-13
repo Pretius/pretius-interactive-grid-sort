@@ -37,7 +37,9 @@ const pretiusInteractiveGridSort = (function () {
         currentOrderArray.push(order);
       });
       // Sort the current order array
-      currentOrderArray.sort();
+      currentOrderArray.sort(function(a, b) {
+        return Number(a) - Number(b);
+      });
       // Iterate over each record in the model
       model.forEach(function (r) {
         var record = r;

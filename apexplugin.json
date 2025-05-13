@@ -1,6 +1,6 @@
 {
     "name" : "Pretius Interactive Grid Sort",
-    "version" : "1.0",
+    "version" : "1.1",
     "description" : "Plugin enables you to sort/reorder your Interactive Grid rows by drag and drop or buttons. It is a simple and easy way to change the order of your rows in the Interactive Grid.",
     "keywords" : ["sort", "reorder", "order", "interactive grid", "ig", "drag", "drop", "grid"],
     "homepage" : "https://github.com/Pretius/pretius-interactive-grid-sort",
